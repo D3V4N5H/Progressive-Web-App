@@ -1,0 +1,328 @@
+@charset "UTF-8";
+:root{
+--vibes:'Great Vibes';
+--unicase:'Cormorant Unicase';
+--dancing:'Dancing Script';
+--pacific:'Pacifico';
+--cookie:'Cookie' ;
+--tech:'Share Tech Mono';
+}
+#Developments{
+  font-size: 2.6rem;
+}
+h1,h2,h3,h4{text-align: center;}
+div{color: green !important; font-family: var(--tech);}
+h4,h3{font-family: var(--tech);}
+p{font-size: 1.2rem;}
+.callout{
+  border-width: 0px;
+  background-color: rgba(0,0,0,0.9);
+  color: green;
+}
+#navtabs{background: rgba(0,0,0,0.8);}
+*:focus {outline: none;}
+.tabs-title > a:hover {opacity: 0.65 }
+.tabs-content{
+  border: 0px;
+  background-color: black;
+}
+.tabs-panel{
+  margin: 0;
+  padding: 0;
+}
+ul.tabs {text-align: center;}
+ul.tabs li {
+  float: none !important;
+  display: inline-block;}
+
+#bg{
+    background-image: url("../AI.jpeg");
+    background-position: center top;
+    background-size: contain;
+    /*background-repeat: no-repeat;*/
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-color: rgba(0,0,0,0.9);
+}
+#Greeting{
+  height: 100vh;
+  padding: 4%;
+
+}
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+.orbit-container{
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 4% 4% 1% 1%;
+}
+.orbit-previous, .orbit-next{
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 50%;
+  background-color: green;
+}
+.orbit-previous:hover, .orbit-next:hover{
+  background-color: #228b22;
+}
+.orbit-bullets button.is-active {
+  background-color: green;
+  margin-top: 5%;
+}
+.rounded-social-buttons {
+  text-align: center;
+}
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+.rounded-social-buttons .social-button.facebook:before {
+  font-family: "FontAwesome";
+  content: "";
+}
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
+.rounded-social-buttons .social-button.twitter {
+  background: #55acee;
+}
+.rounded-social-buttons .social-button.twitter:before {
+  font-family: "FontAwesome";
+  content: "";
+}
+.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+  color: #55acee;
+  background: #fefefe;
+  border-color: #55acee;
+}
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+.rounded-social-buttons .social-button.linkedin:before {
+  font-family: "FontAwesome";
+  content: "";
+}
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+.rounded-social-buttons .social-button.youtube {
+  background: #bb0000;
+}
+.rounded-social-buttons .social-button.youtube:before {
+  font-family: "FontAwesome";
+  content: "";
+}
+.rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+  color: #bb0000;
+  background: #fefefe;
+  border-color: #bb0000;
+}
+.rounded-social-buttons .social-button.instagram {
+  background: #125688;
+}
+.rounded-social-buttons .social-button.instagram:before {
+  font-family: "FontAwesome";
+  content: "";
+}
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+  color: #125688;
+  background: #fefefe;
+  border-color: #125688;
+}
+.rounded-social-buttons .social-button.github {
+  background: #000000;
+  border-width: 1px;
+  border-color: white;
+}
+.rounded-social-buttons .social-button.github:before {
+  font-family: "FontAwesome";
+  content: "";
+}
+.rounded-social-buttons .social-button.github:hover, .rounded-social-buttons .social-button.github:focus {
+  color: #000000;
+  background: #fefefe;
+  border-color: #000000;
+}
+.rounded-social-buttons .social-button.medium {
+  background: black;
+  border-width: 1px;
+  border-color: white;
+}
+.rounded-social-buttons .social-button.medium:before {
+  font-family: "FontAwesome";
+  content: ""
+}
+.rounded-social-buttons .social-button.medium:hover, .rounded-social-buttons .social-button.medium:focus {
+  color: black;
+  background: white;
+  border-color: white;
+}
+.rounded-social-buttons .social-button.spotify {
+  background: green;
+  border-width: 1px;
+  border-color: green;
+}
+.rounded-social-buttons .social-button.spotify:before {
+  font-family: "FontAwesome";
+  content: ""
+}
+.rounded-social-buttons .social-button.spotify:hover, .rounded-social-buttons .social-button.spotify:focus {
+  color: green;
+  background: white;
+  border-color: white;
+}
+.rounded-social-buttons .social-button.patreon {
+  background: orange;
+  border-width: 1px;
+  border-color: orange;
+}
+.rounded-social-buttons .social-button.patreon:before {
+  font-family: "FontAwesome";
+  content: ""
+}
+.rounded-social-buttons .social-button.patreon:hover, .rounded-social-buttons .social-button.patreon:focus {
+  color: black;
+  background: white;
+  border-color: orange;
+}
+.timeline {
+  margin: 30px auto;
+  padding: 0 10px;
+  position: relative;
+  transition: all 0.25s ease-in;
+  width: 100%;
+}.timeline .timeline-item::after, .timeline .timeline-item::before {
+  clear: both;
+  content: '';
+  display: block;
+  width: 100%;
+}.timeline::before {
+  background: #fefefe;
+  content: '';
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  width: 3px;
+}.timeline::after {
+  clear: both;
+  content: '';
+  display: table;
+  width: 100%;
+}.timeline a {
+  color: #fefefe;
+  font-weight: bold;
+  transition: all 0.25s ease-in;
+}.timeline a:hover {
+  box-shadow: 0 1px 0px 0px #fefefe;
+  transition: all 0.25s ease-in;
+}.timeline .timeline-item {
+  margin-bottom: 50px;
+  position: relative;
+}.timeline .timeline-item .timeline-icon {
+  background: #fefefe;
+  border-radius: 50%;
+  height: 50px;
+  left: 50%;
+  margin-left: -23px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 50px;
+}.timeline .timeline-item .timeline-icon img,
+.timeline .timeline-item .timeline-icon svg {
+  left: 14px;
+  position: relative;
+  top: 11px;
+}.timeline .timeline-item .timeline-icon svg {
+  top: 14px;
+}.timeline .timeline-item .timeline-content {
+  padding: 20px;
+  text-align: right;
+  transition: all 0.25s ease-in;
+  width: 45%;
+  background: transparent;
+}.timeline .timeline-item .timeline-content p {
+  color: #fefefe;
+}.timeline .timeline-item .timeline-content p {
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 0;
+}.timeline .timeline-item .timeline-content .timeline-content-date {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0;
+}.timeline .timeline-item .timeline-content .timeline-content-month {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}.timeline .timeline-item .timeline-content.right {
+  float: right;
+  text-align: left;
+}@media screen and (max-width: 39.9375em) {
+  .timeline {
+    margin: 30px;
+    padding: 0;
+    width: 90%;
+  }
+  .timeline::before {
+    left: 0;
+  }
+  .timeline .timeline-item .timeline-content {
+    float: right;
+    text-align: left;
+    width: 90%;
+  }
+  .timeline .timeline-item .timeline-content::before, .timeline .timeline-item .timeline-content.right::before {
+    border-left: 0;
+    border-right: 7px solid #fefefe;
+    left: 10%;
+    margin-left: -6px;
+  }
+  .timeline .timeline-item .timeline-icon {
+    left: 0;
+  }
+}
+.simple-subscription-form {
+  background: rgba(0,0,0,0.8);
+  padding: 2rem;
+  color: #fefefe !important;
+  border-radius: 0;
+}.simple-subscription-form .button {
+  margin-bottom: 0;
+  border-radius: 0 0 0 0;
+}
